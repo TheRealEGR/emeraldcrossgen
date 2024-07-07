@@ -1490,6 +1490,7 @@ const union {
     } },
 
     [SPECIES_POLIWAG] = { .learnset = {
+        .FOCUS_PUNCH = TRUE,
         .WATER_PULSE = TRUE,
         .TOXIC = TRUE,
         .HAIL = TRUE,
