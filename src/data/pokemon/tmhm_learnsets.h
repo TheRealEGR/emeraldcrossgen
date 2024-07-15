@@ -5194,6 +5194,7 @@ const union {
 
     [SPECIES_ESPEON] = { .learnset = {
         .CALM_MIND = TRUE,
+        .ROAR = TRUE,
         .TOXIC = TRUE,
         .HIDDEN_POWER = TRUE,
         .SUNNY_DAY = TRUE,
@@ -5220,6 +5221,7 @@ const union {
 
     [SPECIES_UMBREON] = { .learnset = {
         .CALM_MIND = TRUE,
+        .ROAR = TRUE,
         .TOXIC = TRUE,
         .HIDDEN_POWER = TRUE,
         .SUNNY_DAY = TRUE,
