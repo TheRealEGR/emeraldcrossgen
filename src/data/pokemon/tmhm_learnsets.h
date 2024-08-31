@@ -671,7 +671,7 @@ const union {
         .RETURN = TRUE,
         .DIG = TRUE,
         .DOUBLE_TEAM = TRUE,
-        .REFLECT = TRUE
+        .REFLECT = TRUE,
         .SHOCK_WAVE = TRUE,
         .SLUDGE_BOMB = TRUE,
         .AERIAL_ACE = TRUE,
@@ -2775,7 +2775,6 @@ const union {
         .TOXIC = TRUE,
         .BULK_UP = TRUE,
         .HIDDEN_POWER = TRUE,
-        .TAUNT = TRUE,
         .SUNNY_DAY = TRUE,
         .TAUNT = TRUE,
         .PROTECT = TRUE,
@@ -5552,7 +5551,6 @@ const union {
     [SPECIES_GLIGAR] = { .learnset = {
         .TOXIC = TRUE,
         .HIDDEN_POWER = TRUE,
-        .TAUNT = TRUE,
         .SUNNY_DAY = TRUE,
         .TAUNT = TRUE,
         .PROTECT = TRUE,
@@ -7075,7 +7073,7 @@ const union {
     [SPECIES_MARSHTOMP] = { .learnset = {
         .FOCUS_PUNCH = TRUE,
         .WATER_PULSE = TRUE,
-        .ROAR = TRUE,3
+        .ROAR = TRUE,
         .TOXIC = TRUE,
         .HAIL = TRUE,
         .HIDDEN_POWER = TRUE,
