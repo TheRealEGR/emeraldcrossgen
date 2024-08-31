@@ -3034,6 +3034,7 @@ const union {
         .RETURN = TRUE,
         .DOUBLE_TEAM = TRUE,
         .REFLECT = TRUE,
+        .SHOCK_WAVE = TRUE,
         .SLUDGE_BOMB = TRUE,
         .FACADE = TRUE,
         .SECRET_POWER = TRUE,
