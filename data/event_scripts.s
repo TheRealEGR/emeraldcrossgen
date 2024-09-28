@@ -1059,7 +1059,7 @@ Common_EventScript_LegendaryFlewAway::
 
 FillPokedex::
 	setvar VAR_0x8004, 1
-	special ScriptSeenPokedexInfo
+	special ScriptSetSeenPokedexInfo
 	special ScriptSetCaughtPokedexInfo
 	call loop 
 	setflag FLAG_SYS_POKEDEX_GET
