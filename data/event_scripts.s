@@ -1062,7 +1062,7 @@ FillPokedex::
 	special ScriptSeenPokedexInfo
 	special ScriptSetCaughtPokedexInfo
 	call loop 
-	setflag FLAG_SYS_POKEDEX_GEt
+	setflag FLAG_SYS_POKEDEX_GET
 	special EnableNationalPokedex
 loop:
 	addvar Ox8004 1
