@@ -1479,7 +1479,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_ILLUMISE"
+                "species": "SPECIES_VOLBEAT"
               },
               {
                 "min_level": 13,
@@ -4455,43 +4455,43 @@
             "encounter_rate": 10,
             "mons": [
               {
-                "min_level": 27,
-                "max_level": 27,
+                "min_level": 22,
+                "max_level": 29,
                 "species": "SPECIES_SHUPPET"
               },
               {
-                "min_level": 27,
-                "max_level": 27,
+                "min_level": 22,
+                "max_level": 29,
                 "species": "SPECIES_SHUPPET"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_SHUPPET"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_SHUPPET"
-              },
-              {
-                "min_level": 29,
-                "max_level": 29,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 27,
-                "max_level": 27,
-                "species": "SPECIES_VULPIX"
+                "max_level": 29,
+                "species": "SPECIES_MEDITITE"
               },
               {
-                "min_level": 29,
+                "min_level": 27,
+                "max_level": 29,
+                "species": "SPECIES_MEDITITE"
+              },
+              {
+                "min_level": 25,
                 "max_level": 29,
                 "species": "SPECIES_VULPIX"
               },
               {
                 "min_level": 25,
-                "max_level": 25,
+                "max_level": 29,
                 "species": "SPECIES_VULPIX"
               },
               {
