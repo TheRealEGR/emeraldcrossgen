@@ -342,8 +342,6 @@ SECTIONS {
         src/battle_transition_frontier.o(.text);
         src/international_string_util.o(.text);
     } > ROM =0
-		src/ui_stat_editor.o(.text);
-    } =0
 
     script_data :
     ALIGN(4)
@@ -706,8 +704,6 @@ SECTIONS {
         src/m4a_tables.o(.rodata);
         data/sound_data.o(.rodata);
     } > ROM =0
-		src/ui_stat_editor.o(.rodata);
-    } =0
 
     song_data :
     ALIGN(4)
