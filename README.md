@@ -9,3 +9,5 @@ It builds the following ROM:
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
 For contacts and other pret projects, see [pret.github.io](https://pret.github.io/).
+
+No, this still dosen´t have the crossgen evos, it´s just a starting point, it only adds some QoL.
