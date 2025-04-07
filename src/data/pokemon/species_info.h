@@ -11664,5 +11664,29 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .safariZoneFleeRate = 0,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
-    }
+    },
+
+    [SPECIES_BUDEW] =
+    {
+        .baseHP        = 40,
+        .baseAttack    = 30,
+        .baseDefense   = 35,
+        .baseSpeed     = 55,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 70,
+        .types = { TYPE_GRASS, TYPE_POISON},
+        .catchRate = 255,
+        .expYield = 56,
+        .evYield_SpAttack  = 1,
+        .itemCommon = ITEM_NONE,
+        .itemRare = ITEM_POISON_BARB,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = {ABILITY_NATURAL_CURE, ABILITY_POISON_POINT},
+        .bodyColor = BODY_COLOR_GREEN,
+        .noFlip = TRUE,
+    },
 };

@@ -1888,6 +1888,12 @@ const u8 gIllumisePokedexText[] = _(
     "to draw patterns in the night sky. Over 200\n"
     "different patterns have been confirmed.");
 
+const u8 gBudewPokedexText[] = _(
+    "Over the winter, it closes its bud and\n"
+    "endures the cold. Sensitive to changing\n"
+    "temperature, the bud is said to bloom\n"
+    "when it feels the sun's warm touch.");
+
 const u8 gRoseliaPokedexText[] = _(
     "A ROSELIA that drinks nutritionally rich\n"
     "springwater blooms with lovely flowers.\n"
