@@ -1943,6 +1943,10 @@ Cry_Budew::
 	.incbin "sound/direct_sound_samples/cries/budew.bin"
 
 	.align 2
+Cry_Roserade::
+	.incbin "sound/direct_sound_samples/cries/roserade.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

@@ -4590,10 +4590,42 @@ static const union AnimCmd sAnim_Budew_1[] =
     ANIMCMD_END,
 };
 
-//static const union AnimCmd sAnim_ROSERADE_1[] =
+static const union AnimCmd sAnim_Roserade_1[] =
+{
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
+
+//static const union AnimCmd sAnim_Annihilape_1[] =
 //{
+//    ANIMCMD_FRAME(1, 15),
+//    ANIMCMD_FRAME(0, 15),
+//    ANIMCMD_FRAME(1, 15),
+//    ANIMCMD_FRAME(0, 15),
+//    ANIMCMD_FRAME(1, 15),
+//    ANIMCMD_FRAME(0, 15),
+//    ANIMCMD_END,
+//};
+
+//static const union AnimCmd sAnim_Farigiraf_1[] =
+//{
+//    ANIMCMD_FRAME(0, 15),
 //    ANIMCMD_FRAME(1, 20),
-//    ANIMCMD_FRAME(0, 20),
+//    ANIMCMD_FRAME(0, 15),
+//    ANIMCMD_FRAME(1, 10),
+//    ANIMCMD_FRAME(0, 15),
+//    ANIMCMD_FRAME(1, 10),
+//    ANIMCMD_FRAME(0, 15),
+//    ANIMCMD_END,
+//};
+
+//static const union AnimCmd sAnim_Dudunsparce_1[] =
+//{
+//    ANIMCMD_FRAME(1, 10),
+//    ANIMCMD_FRAME(0, 15),
+//    ANIMCMD_FRAME(1, 15),
+//    ANIMCMD_FRAME(0, 10),
 //    ANIMCMD_END,
 //};
 
@@ -5239,6 +5271,7 @@ DOUBLE_ANIMATION(Jirachi);
 DOUBLE_ANIMATION(Deoxys);
 SINGLE_ANIMATION(Chimecho);
 SINGLE_ANIMATION(Budew);
+SINGLE_ANIMATION(Roserade);
 SINGLE_ANIMATION(Egg);
 SINGLE_ANIMATION(UnownB);
 SINGLE_ANIMATION(UnownC);
@@ -5683,6 +5716,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_DEOXYS]      = sAnims_Deoxys,
     [SPECIES_CHIMECHO]    = sAnims_Chimecho,
     [SPECIES_BUDEW]       = sAnims_Budew,
+    [SPECIES_ROSERADE]    = sAnims_Roserade,
     [SPECIES_EGG]         = sAnims_Egg,
     [SPECIES_UNOWN_B]     = sAnims_UnownB,
     [SPECIES_UNOWN_C]     = sAnims_UnownC,

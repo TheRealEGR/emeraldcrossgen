@@ -519,6 +519,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(DEOXYS),
     SPECIES_TO_HOENN(CHIMECHO),
     SPECIES_TO_HOENN(BUDEW),
+    SPECIES_TO_HOENN(ROSERADE),
 };
 
 // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -936,6 +937,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(DEOXYS),
     SPECIES_TO_NATIONAL(CHIMECHO),
     SPECIES_TO_NATIONAL(BUDEW),
+    SPECIES_TO_NATIONAL(ROSERADE),
 };
 
 // Assigns all Hoenn Dex Indexes to a National Dex Index
@@ -1036,6 +1038,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(DODRIO),
     HOENN_TO_NATIONAL(BUDEW),
     HOENN_TO_NATIONAL(ROSELIA),
+    HOENN_TO_NATIONAL(ROSERADE),
     HOENN_TO_NATIONAL(GULPIN),
     HOENN_TO_NATIONAL(SWALOT),
     HOENN_TO_NATIONAL(CARVANHA),
@@ -1794,7 +1797,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_DEOXYS - 1]      = ANIM_H_PIVOT,
     [SPECIES_CHIMECHO - 1]    = ANIM_H_SLIDE_WOBBLE,
     [SPECIES_BUDEW - 1]       = ANIM_V_SQUISH_AND_BOUNCE_SLOW,
-//  [SPECIES_ROSERADE - 1]    = ANIM_H_VIBRATE,
+    [SPECIES_ROSERADE - 1]    = ANIM_H_VIBRATE,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
