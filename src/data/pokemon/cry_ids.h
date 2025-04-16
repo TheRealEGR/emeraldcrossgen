@@ -137,4 +137,5 @@ const u16 gSpeciesIdToCryId[] =
     [SPECIES_CHIMECHO - 277] = 387,
     [SPECIES_BUDEW - 277] = 388,
     [SPECIES_ROSERADE- 277] = 389,
+    [SPECIES_AMBIPOM- 277] = 390,
 };

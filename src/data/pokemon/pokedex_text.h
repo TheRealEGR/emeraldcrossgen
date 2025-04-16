@@ -1144,6 +1144,12 @@ const u8 gAipomPokedexText[] = _(
     "tail so much, AIPOM's real hands have\n"
     "become rather clumsy.");
 
+const u8 gAmbipomPokedexText[] = _(
+    "They live on large trees. Split into two,\n"
+    "the tails are so adept at handling and\n"
+    "doing things, AMBIPOM rarely uses\n"
+    "its hands now.");
+
 const u8 gSunkernPokedexText[] = _(
     "SUNKERN try to minimize movement to\n"
     "conserve the nutrients they have stored\n"

@@ -1147,6 +1147,10 @@ Cry_Aipom::
 	.incbin "sound/direct_sound_samples/cries/aipom.bin"
 
 	.align 2
+Cry_Ambipom::
+	.incbin "sound/direct_sound_samples/cries/ambipom.bin"
+
+	.align 2
 Cry_Sunkern::
 	.incbin "sound/direct_sound_samples/cries/sunkern.bin"
 

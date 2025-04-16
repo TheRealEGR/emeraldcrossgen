@@ -520,6 +520,7 @@ static const u16 sSpeciesToHoennPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_HOENN(CHIMECHO),
     SPECIES_TO_HOENN(BUDEW),
     SPECIES_TO_HOENN(ROSERADE),
+    SPECIES_TO_HOENN(AMBIPOM),
 };
 
 // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -938,6 +939,7 @@ static const u16 sSpeciesToNationalPokedexNum[NUM_SPECIES - 1] =
     SPECIES_TO_NATIONAL(CHIMECHO),
     SPECIES_TO_NATIONAL(BUDEW),
     SPECIES_TO_NATIONAL(ROSERADE),
+    SPECIES_TO_NATIONAL(AMBIPOM),
 };
 
 // Assigns all Hoenn Dex Indexes to a National Dex Index
@@ -1356,6 +1358,7 @@ static const u16 sHoennToNationalOrder[NUM_SPECIES - 1] =
     HOENN_TO_NATIONAL(OLD_UNOWN_X),
     HOENN_TO_NATIONAL(OLD_UNOWN_Y),
     HOENN_TO_NATIONAL(OLD_UNOWN_Z),
+    HOENN_TO_NATIONAL(AMBIPOM),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =
@@ -1798,6 +1801,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_CHIMECHO - 1]    = ANIM_H_SLIDE_WOBBLE,
     [SPECIES_BUDEW - 1]       = ANIM_V_SQUISH_AND_BOUNCE_SLOW,
     [SPECIES_ROSERADE - 1]    = ANIM_H_VIBRATE,
+    [SPECIES_AMBIPOM - 1]     = ANIM_BACK_AND_LUNGE,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
